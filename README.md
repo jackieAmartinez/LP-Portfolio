@@ -6,6 +6,10 @@ This repository is used as the first-impression for employers and peers to view 
 
 ---
 
+
+[Deployed App](https://github.com/jackieAmartinez/LP-Portfolio.git)
+
+
 ![1678978466084](image/README/1678978466084.png)
 
 ![1678978484004](image/README/1678978484004.png)
