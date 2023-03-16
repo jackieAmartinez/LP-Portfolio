@@ -82,7 +82,7 @@ main {
 
 .column-empty {
     max-height: 200px;
-    width: 400px;
+    width: 30%;
 }
 
 .empty {
@@ -232,6 +232,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80vw;
+    height: 30vw;
+    padding-bottom: 30px;
 }
 
 .row-contact {
@@ -241,6 +244,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 form {
@@ -268,21 +272,23 @@ form {
     flex-wrap: wrap;
     justify-content: space-around;
     max-height: 400px;
+    padding-top: 10vw;
 }
 
 .row-about {
-    width: 100vw;
+    width: 80vw;
     color: gray;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: white;
     max-height: 80%;
+    background-color: white;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: nowrap;
 }
 
 .column-aboutImg {
     max-width: 80%;
-    border: 2px solid black;
 }
 
 .img-about {
@@ -291,9 +297,10 @@ form {
 }
 
 .column-aboutText {
-    width: 50em;
+    width: 60em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .text-about {
@@ -302,5 +309,5 @@ form {
     align-items: center;
     justify-content: space-around;
     padding-left: 70px;
-    border: 2px solid black;
+    color: black;
 }
